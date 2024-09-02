@@ -16,32 +16,32 @@ export default function Navbar() {
       <div className="container mx-auto lg:px-6 flex justify-between items-center w-full">
         <div className="flex items-center gap-x-2 lg:w-1/3">
           <h1 className="font-poppins text-white text-3xl font-bold">
-            GOTO <span className="text-[#FFFF00]"> BHARAT.</span>
+            About <span className="text-[#FFFF00]"> Vishnu.</span>
           </h1>
         </div>
         <ul className="flex justify-center items-center gap-16 max-lg:hidden">
           <li>
-            <a href="#" className="leading-normal text-lg no-underline text-white">
+            <a href="#hero" className="leading-normal text-lg no-underline text-white">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="leading-normal text-lg no-underline text-white">
+            <a href="#about" className="leading-normal text-lg no-underline text-white">
               Explore
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#" className="leading-normal text-lg no-underline text-white">
               Article
             </a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href="#" className="leading-normal text-lg no-underline text-white">
               Galleries
             </a>
-          </li>
+          </li> */}
           <li>
-            <a href="#" className="leading-normal text-lg no-underline text-white">
+            <a href="#footer" className="leading-normal text-lg no-underline text-white">
               Contact
             </a>
           </li>
@@ -61,27 +61,27 @@ export default function Navbar() {
           <div className="w-full h-[320px] flex flex-col items-baseline pt-8 gap-4">
             <ul className="text-center p-0 flex flex-col justify-center w-full gap-y-8">
               <li>
-                <a href="#" className="leading-normal text-lg no-underline text-white">
+                <a href="#hero" className="leading-normal text-lg no-underline text-white">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="leading-normal text-lg no-underline text-white">
+                <a href="#about" className="leading-normal text-lg no-underline text-white">
                   Explore
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="leading-normal text-lg no-underline text-white">
                   Article
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#" className="leading-normal text-lg no-underline text-white">
                   Galleries
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#" className="leading-normal text-lg no-underline text-white">
+                <a href="#footer" className="leading-normal text-lg no-underline text-white">
                   Contact
                 </a>
               </li>
